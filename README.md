@@ -10,6 +10,7 @@ Card System built with **HTML** and **CSS** in combination with **BEM methodolog
 
 * HTML
 * CSS
+* TailwindCSS CSS
 
 ## Tools:
 
