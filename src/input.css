@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.deck{
+    @apply flex flex-wrap justify-center gap-10;
+}
+
+.card{
+    @apply flex flex-wrap p-8 mt-2 bg-gray-200 shadow-lg w-96 rounded-xl;
+}
+
+.card__image{
+    @apply object-cover w-24 h-24 mx-auto rounded-full;
+}
+
+.card__body{
+    @apply pt-6 space-y-4 text-center text-gray-900 md:text-left;
+}
+
+.card__footer{
+    @apply mt-4 font-medium text-center;
+}
+
+.card__text{
+    @apply text-lg font-medium text-center;
+}
+
+.card__footer{
+    @apply mx-auto;
+}
+
+.card__footer-title{
+    @apply text-sky-500 dark:text-gray-400;
+}
+
+.card__footer-text{
+    @apply text-gray-700 dark:text-gray-500;
+}
+
+.card--dark{
+    @apply dark:bg-gray-800
+}
+
+.card--dark .card__body{
+    @apply text-white;
+}
