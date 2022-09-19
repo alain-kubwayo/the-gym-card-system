@@ -1,7 +1,7 @@
 # Card System
 
 <p float="center">
-    <img src="screenshot-lg.png" alt="Screenshot" height="400" />
+    <img src="card-system-lg.png" alt="Screenshot" height="400" />
 </p>
 
 Card System built with **HTML** and **CSS** in combination with **BEM methodology**
